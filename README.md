@@ -4,7 +4,7 @@ Reflect is a portable notepad you can run on your browser using a command in the
 Run Reflect:
 
 ```
-fetch('https://raw.githubusercontent.com/tonicwater1/joobx/refs/heads/main/index.js')
+fetch('https://raw.githubusercontent.com/tonicwater1/reflect/refs/heads/main/index.js')
   .then(response => response.text())
   .then(script => {
     eval(script);
